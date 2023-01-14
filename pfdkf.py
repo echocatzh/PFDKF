@@ -25,7 +25,7 @@ from numpy.fft import irfft as ifft
 
 
 class PFDKF:
-    def __init__(self, N, M, A=0.999, P_initial=10, keep_m_gate=0.5, res=True):
+    def __init__(self, N, M, A=0.999, P_initial=1, keep_m_gate=0.5, res=True):
         """Initial state of partitioned block based frequency domain kalman filter
 
         Args:
@@ -85,7 +85,7 @@ class PFDKF:
         self.H = self.A*(self.H + fft(self.half_window*(ifft(self.E*G).real)))
 
 
-def pfdkf(x, d, N=10, M=256, A=0.999, P_initial=10, keep_m_gate=0.1):
+def pfdkf(x, d, N=10, M=256, A=0.999, P_initial=1, keep_m_gate=0.1):
     ft = PFDKF(N, M, A, P_initial, keep_m_gate)
     num_block = min(len(x), len(d)) // M
 
