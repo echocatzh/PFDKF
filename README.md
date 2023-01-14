@@ -8,7 +8,7 @@ The `filter` and `update` API refer to https://github.com/ewan-xu/pyaec.
 
 If you use it in your research or anything else, please cite the implementation source (https://github.com/echocatzh/PFDKF/)
 
-## TODO:
+## TODO (if i'm free):
 - update the unconstrained version.
 - corresponding torch-kalman impl.
 - data-driven based pfdkf
