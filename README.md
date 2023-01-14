@@ -1,5 +1,5 @@
 # PFDKF
-The constrained version of partition block based frequency domain Kalman filter
+partition block based frequency domain Kalman filter
 
 Reference paper: STATE-SPACE ARCHITECTURE OF THE PARTITIONED-BLOCK-BASED ACOUSTIC ECHO CONTROLLER
 
