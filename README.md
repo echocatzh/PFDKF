@@ -11,3 +11,6 @@ If you use it in your research or anything else, please cite the implementation 
 ## TODO:
 - update the unconstrained version.
 - data-driven based pfdkf
+
+## Any bugs?
+Discussion is welcome, which will help me continue to improve this repo.
