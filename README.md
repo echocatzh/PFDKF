@@ -1,10 +1,10 @@
 # PFDKF
 The constrained version of partition block based frequency domain Kalman filter
 
-Reference Paper: STATE-SPACE ARCHITECTURE OF THE PARTITIONED-BLOCK-BASED ACOUSTIC ECHO CONTROLLER
+Reference paper: STATE-SPACE ARCHITECTURE OF THE PARTITIONED-BLOCK-BASED ACOUSTIC ECHO CONTROLLER
 
 ## Note
-the `filter` and `update` API refer to https://github.com/ewan-xu/pyaec.
+The `filter` and `update` API refer to https://github.com/ewan-xu/pyaec.
 
 ## TODO:
 - update the unconstrained version.
